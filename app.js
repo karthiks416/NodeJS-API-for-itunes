@@ -11,7 +11,7 @@ var itunesController=require('./controller/itunesController');
 var config=require('./config/config');
 var app = exports.app=express();
 app.set('port', config.port);
-
+//routes for the api calls
 
 app.get('/api/artistId',itunesController.getArtistId );
 
